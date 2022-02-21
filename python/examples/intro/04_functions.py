@@ -11,9 +11,7 @@ from os import sep
 
 
 def displayGreeting():
-    """
-    Prints a greeting to the console
-    """
+    """Prints a greeting to the console"""
     print("Hello")
 
 
@@ -21,8 +19,7 @@ def displayGreeting():
 # C/C++ as they are dynamically typed like all
 # variabes in Python.
 def displayGreetingWithName(name):
-    """
-    Prints a user specific greeting to the console
+    """Prints a user specific greeting to the console
     
     Args:
         name (string): user name to be displayed with the greeting
@@ -36,8 +33,7 @@ def displayGreetingWithName(name):
 # to as positional parameters. Named parameters MUST
 # appear after all positional parameters.
 def delimitedList(values, separator=','):
-    """
-    Creates a deliniated string make up of items in values 
+    """Creates a deliniated string make up of items in values 
 
     Args:
         values (list): List of values
