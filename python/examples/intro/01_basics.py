@@ -146,7 +146,7 @@ del myList # The list can no longer be used once deleted
 # print(myList) # This will cause an error
 
 # Tuples are similar to lists, but they are immutable and cannot change
-# Empty Tuple
+# Empty Tuple for illustrative purposes
 myEmptyTuple = ()
 print(myEmptyTuple)
 
