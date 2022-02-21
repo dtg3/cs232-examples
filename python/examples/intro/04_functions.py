@@ -48,6 +48,10 @@ def delimitedList(values, separator=','):
     """
     delimitedString = ""
     for value in values:
+        # This string is called a format string (or f string
+        # for short). This allows you to insert variables 
+        # directly into a string. This syntax only works
+        # in Python 3.6 or higher.
         delimitedString += f"{value}{separator}"
     
     return delimitedString
