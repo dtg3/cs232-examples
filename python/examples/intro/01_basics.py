@@ -26,24 +26,24 @@ function definitions to generate documentation.
 # means that a variables type depends on what
 # is being stored within in it a any give time.
 # Here I can have an integer 10.
-myVariable = 10
-print(myVariable)
+my_variable = 10
+print(my_variable)
 
 # I can also change what this variable holds and
 # the type of data it holds at any time.
-myVariable = "Hello"
-print(myVariable)
+my_variable = "Hello"
+print(my_variable)
 
 # While this can make for easy coding it can create
-# some pitfalls. If I assume that myVariable is still
+# some pitfalls. If I assume that my_variable is still
 # holding a numeric value and try to do an operation
 # that is not supported by a string, the program will
 # crash.
-# Example: print(myVariable / 10)
+# Example: print(my_variable / 10)
 
 # Worse yet, I might do a compatible operation and get
 # an incorrect result. Be careful of this.
-print(myVariable * 2)
+print(my_variable * 2)
 
 
 # In the above statments, I've used python's print
@@ -52,7 +52,7 @@ print(myVariable * 2)
 # We can simply print a single literal value or a variable.
 print("String literal")
 print(10)
-print(myVariable)
+print(my_variable)
 
 # We can also print multiple literal values or variables.
 print("Hello", "World!")
@@ -101,65 +101,65 @@ print("Repeat" * 4)           # Repeating strings
 
 # Lists which work very similarly to arrays.
 # Empty list
-myEmptyList = [] 
-print(myEmptyList)
+my_empty_list = [] 
+print(my_empty_list)
 
 # A list initialized with items
-myList = [1, 2, 3]
-print(myList)
+my_list = [1, 2, 3]
+print(my_list)
 
 # Lists can have different types
-myVariousItems = [1, 3, "String", 2.1]
-print(myVariousItems)
+my_various_items = [1, 3, "String", 2.1]
+print(my_various_items)
 
 # Get the item at index 1
-print(myVariousItems[1])
+print(my_various_items[1])
 
 # Add an item to the end of the list
-myVariousItems.append("new item")
-print(myVariousItems)
+my_various_items.append("new item")
+print(my_various_items)
 
 # Remove and return the last item from the list
-print(myVariousItems.pop()) 
-print(myVariousItems)
+print(my_various_items.pop()) 
+print(my_various_items)
 
 # Insert an item at an index
-myVariousItems.insert(1, "inserted item")
-print(myVariousItems)
+my_various_items.insert(1, "inserted item")
+print(my_various_items)
 
 # Remove and return the item at the specific index from the list
-print(myVariousItems.pop(1))
-print(myVariousItems)
+print(my_various_items.pop(1))
+print(my_various_items)
 
 # Remove an item by value from a list (does not return anything)
-myVariousItems.remove(2.1)
-print(myVariousItems)
+my_various_items.remove(2.1)
+print(my_various_items)
 
 # Clear the contents of a list
-print(myList)
-myList.clear()
-print(myList)
+print(my_list)
+my_list.clear()
+print(my_list)
 
 # Delete a list
-print(myList)
-del myList # The list can no longer be used once deleted
-# print(myList) # This will cause an error
+print(my_list)
+del my_list # The list can no longer be used once deleted
+# print(my_list) # This will cause an error
 
 # Tuples are similar to lists, but they are immutable and cannot change
 # Empty Tuple
-myEmptyTuple = ()
-print(myEmptyTuple)
+my_empty_tuple = ()
+print(my_empty_tuple)
 
 # Initialized Tuple
-myTuple = (1, "word", 4, "you")
-print(myTuple)
+my_tuple = (1, "word", 4, "you")
+print(my_tuple)
 
 # Access elements of the tuple
-print(myTuple[2])
+print(my_tuple[2])
 
 # A tuple with only one item has special syntax
-mySingleTuple = ("one item only",) # note the trailing comma
-print(mySingleTuple)
+my_single_tuple = ("one item only",) # note the trailing comma
+print(my_single_tuple)
 
 # Dictionaries store data in key, value pairs
 # Empty dictionary
@@ -168,36 +168,36 @@ print(myEmptyDictionary)
 
 # Initialized Dictionary
 # key:value
-myDictionary = { 10:"foo", 14:"bar", "baz":40 }
-print(myDictionary)
+my_dictionary = { 10:"foo", 14:"bar", "baz":40 }
+print(my_dictionary)
 
 # Add an item to the dictionary
-myDictionary["new item"] = "I'm new!"
-print(myDictionary)
+my_dictionary["new item"] = "I'm new!"
+print(my_dictionary)
 
 # Change an item in the dictionary
-myDictionary["new item"] = "I'm and updated item!"
-print(myDictionary)
-myDictionary.update({50:"I'm updated with a function!"})
-print(myDictionary)
+my_dictionary["new item"] = "I'm and updated item!"
+print(my_dictionary)
+my_dictionary.update({50:"I'm updated with a function!"})
+print(my_dictionary)
 
 # Access a data item by its key
 # Use this method if you are SURE that the
 # data is in the dictionary or you get an error.
-print(myDictionary["baz"])
-print(myDictionary[14])
+print(my_dictionary["baz"])
+print(my_dictionary[14])
 # Alternatively, you can use the get function 
 # and provide the key. This is safer as it does
 # not throw an error if the key in the dictionary.
-print(myDictionary.get(10)) # Returns the value
-print(myDictionary.get("foobar")) # Returns None (key not there) 
+print(my_dictionary.get(10)) # Returns the value
+print(my_dictionary.get("foobar")) # Returns None (key not there) 
 # None can be considered the equivalent of NULL is C/C++
 
 # Get a list of all the keys in a dictionary
-print(myDictionary.keys())
+print(my_dictionary.keys())
 
 # Get a list of key, value pairs stored in a tuple
-print(myDictionary.items())
+print(my_dictionary.items())
 
 # Sets are like lists, but they have some special rules.
 # 1. They cannot contain duplicate items
@@ -206,23 +206,23 @@ print(myDictionary.items())
 # 4. Items are not indexable
 
 # Empty Set
-myEmptySet = {}
-print(myEmptySet)
+my_empty_set = {}
+print(my_empty_set)
 
 # Initialized Set
-mySet = {"bread", "milk", "eggs"}
-print(mySet)
+my_set = {"bread", "milk", "eggs"}
+print(my_set)
 
 # Add an item to the set
-mySet.add("grape")
-print(mySet)
+my_set.add("grape")
+print(my_set)
 
 # Add multiple items from a list
 itemList = ["lemons", "donuts"]
-mySet.update(itemList)
-print(mySet)
+my_set.update(itemList)
+print(my_set)
 
 # Remove an item
-mySet.remove("donuts") # Will cause an error if the item isn't in the list
-print(mySet)
-mySet.discard("donuts") # Removes an item WITHOUT causing an error
+my_set.remove("donuts") # Will cause an error if the item isn't in the list
+print(my_set)
+my_set.discard("donuts") # Removes an item WITHOUT causing an error

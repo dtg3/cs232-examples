@@ -31,30 +31,30 @@ print(not (x < 20))
 # dictionaries, tuples, sets, and strings, etc.)
 # we can check if items are present in the 
 # collection.
-myExampleList = ["apple", "banana", "grape", "pineapple"]
-print("grape" in myExampleList)
-print("hotdog" in myExampleList)
-print("grape" not in myExampleList)
-print("hotdog" not in myExampleList)
+my_example_list = ["apple", "banana", "grape", "pineapple"]
+print("grape" in my_example_list)
+print("hotdog" in my_example_list)
+print("grape" not in my_example_list)
+print("hotdog" not in my_example_list)
 
 # Conditional statements are similar to those in C/C++
 # but with different syntax.
 # Simple if
-if 'grape' in myExampleList:
+if 'grape' in my_example_list:
     print("Item in the list")
 
 # Simple if else
-if 'hotdog' in myExampleList:
+if 'hotdog' in my_example_list:
     print("Item in the list")
 else:
     print("Item not in the list")
 
 # Multiple conditional if statement
-if 'grape' in myExampleList:
+if 'grape' in my_example_list:
     print("Purple Fruit")
-elif 'banana' in myExampleList:
+elif 'banana' in my_example_list:
     print("Yellow Fruit")
-elif 'pineapple' in myExampleList:
+elif 'pineapple' in my_example_list:
     print("Spiky Fruit")
 else:
     print("Red Fruit")

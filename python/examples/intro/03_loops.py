@@ -24,20 +24,20 @@ for letter in "text":
 # dictionary are shown. Tuples and sets work
 # similar to a list.
 # Iterating through a list
-myList = ["apple", "banana", "cherry", "pineapple", "strawberry"]
-for item in myList:
+my_list = ["apple", "banana", "cherry", "pineapple", "strawberry"]
+for item in my_list:
     print(item)
 
 # Iterating over a dictionary by keys
-myDictionary = { 10:"foo", 20:"bar", 30:"baz"}
-for key in myDictionary:
-    print(key, '->', myDictionary[key])
+my_dictionary = { 10:"foo", 20:"bar", 30:"baz"}
+for key in my_dictionary:
+    print(key, '->', my_dictionary[key])
 
 # Or we can iterate over the dictionary as a list of items
 # This is interesting because we get a tuple for each list
 # item and each tuple has two parts which we can store in
 # multiple variables in the loop.
-for key, value in myDictionary.items():
+for key, value in my_dictionary.items():
     print(key, '->', value)
 
 
@@ -52,6 +52,6 @@ print("Done!")
 # You can also perform more standard index based looping
 # using the len() function on an iterable type
 index = 0
-while index < len(myList):
-    print(myList[index])
+while index < len(my_list):
+    print(my_list[index])
     index += 1

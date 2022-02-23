@@ -46,11 +46,11 @@ def delimitedList(values, separator=','):
     Returns:
         string: the delimited list of values
     """
-    delimitedString = ""
+    delimited_string = ""
     for value in values:
-        delimitedString += f"{value}{separator}"
+        delimited_string += f"{value}{separator}"
     
-    return delimitedString
+    return delimited_string
 
 # This is a special condition that means when we execute
 # this script as a standalone program rather than just
