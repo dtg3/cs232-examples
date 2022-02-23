@@ -52,13 +52,12 @@ def delimitedList(values, separator=','):
     
     return delimited_string
 
-# This is a special condition that means when we execute
-# this script as a standalone program rather than just
-# call the functions from another script, the code
-# in the conditional gets executed. For now, think of it
-# like the int main() function in C/C++.
-# We will see this more later...
-if __name__ == "__main__":
+
+def main():
+    """Starting function to run the 
+    complete sample program
+    """
+
     displayGreeting()
 
     displayGreetingWithName("Sarah")
@@ -74,3 +73,12 @@ if __name__ == "__main__":
     # documentation.
     print(delimitedList([3, 2, 1], separator='...'))
 
+
+# This is a special condition that means when we execute
+# this script as a standalone program rather than just
+# call the functions from another script, the code
+# in the conditional gets executed. For now, think of it
+# like the int main() function in C/C++.
+# We will see this more later...
+if __name__ == "__main__":
+    main()
