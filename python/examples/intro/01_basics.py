@@ -209,7 +209,7 @@ print(my_dictionary.items())
 # 4. Items are not indexable
 
 # Empty Set
-my_empty_set = {}
+my_empty_set = set()
 print(my_empty_set)
 
 # Initialized Set
