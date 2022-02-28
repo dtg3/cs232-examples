@@ -1,8 +1,3 @@
-# Standard Modules
-import math
-
-# Local Modules
-from point import Point
 
 class Rectangle:
     """Rectangle class
