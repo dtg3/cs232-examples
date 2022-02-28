@@ -6,7 +6,7 @@ to be prime, the first factors are shown.
 """
 
 
-def checkPrime(number):
+def check_prime(number):
     """Checks if a number is prime
 
     Args:
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     # We need to use int() to cast the value to an
     # integer type.
     inputNumber = int(input("Please enter an integer: "))
-    factors = checkPrime(inputNumber)
+    factors = check_prime(inputNumber)
 
     if factors:
         print(f"Factors found: {factors[0]} * {factors[1]} = {inputNumber}")

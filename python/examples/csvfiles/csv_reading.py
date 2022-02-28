@@ -26,7 +26,7 @@ import csv
 import os
 
 
-def processCSVFile(input_file_path, output_file_path):
+def process_CSV_file(input_file_path, output_file_path):
     """Read a comma separated values
     (CSV) file
 
@@ -79,7 +79,7 @@ def main():
     input_file_path = os.path.join(absolute_path_to_directory, "grades.csv")
     output_file_path = os.path.join(absolute_path_to_directory, "report.txt")
     
-    processCSVFile(input_file_path, output_file_path)
+    process_CSV_file(input_file_path, output_file_path)
 
 
 if __name__ == "__main__":

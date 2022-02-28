@@ -5,7 +5,7 @@ indices and slicing for iterables
 """
 
 
-def indexingExample(container):
+def indexing_example(container):
     """Accessing elements
     
     Args:
@@ -34,7 +34,7 @@ def indexingExample(container):
     # will result in an error
 
 
-def slicingExample(container):
+def slicing_example(container):
     """Slicing allows you to take a linear
     subset of a container to produce a new
     container:
@@ -67,13 +67,13 @@ def main():
     my_list = ["apples", "oranges", "pears", "bananas", "berries"]
     my_tuple = ("a", "b", "c", "d", "e")
 
-    indexingExample(my_string)
-    indexingExample(my_list)
-    indexingExample(my_tuple)
+    indexing_example(my_string)
+    indexing_example(my_list)
+    indexing_example(my_tuple)
 
-    slicingExample(my_string)
-    slicingExample(my_list)
-    slicingExample(my_tuple)
+    slicing_example(my_string)
+    slicing_example(my_list)
+    slicing_example(my_tuple)
 
 if __name__ == "__main__":
     main()

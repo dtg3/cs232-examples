@@ -3,14 +3,12 @@
 Demonstrate the use of Python functions.
 """
 
+
 # Functions have a different format than C/C++
 # The def keyword indicates the intention to
 # DEFINE a function. Functions can have zero
 # or more parameters.
-from os import sep
-
-
-def displayGreeting():
+def display_greeting():
     """Prints a greeting to the console"""
     print("Hello")
 
@@ -18,7 +16,7 @@ def displayGreeting():
 # Function parameters don't need a type like in
 # C/C++ as they are dynamically typed like all
 # variabes in Python.
-def displayGreetingWithName(name):
+def display_greeting_with_name(name):
     """Prints a user specific greeting to the console
     
     Args:
@@ -32,7 +30,7 @@ def displayGreetingWithName(name):
 # Parameters without the name= notation are referred
 # to as positional parameters. Named parameters MUST
 # appear after all positional parameters.
-def delimitedList(values, separator=','):
+def delimited_list(values, separator=','):
     """Creates a deliniated string make up of items in values 
 
     Args:
@@ -58,20 +56,20 @@ def main():
     complete sample program
     """
 
-    displayGreeting()
+    display_greeting()
 
-    displayGreetingWithName("Sarah")
-    print(delimitedList(["apple", "grape", "pear"]))
+    display_greeting_with_name("Sarah")
+    print(delimited_list(["apple", "grape", "pear"]))
 
     # If there is a fixed number of positional arguments
     # then you can use the parameters in order with the
     # correct behavior.
-    print(delimitedList([3, 2, 1], '...'))
+    print(delimited_list([3, 2, 1], '...'))
     # If there is an arbitrary number of positional
     # arguments you need to refer to the named argument
     # by name. You can also use the name for self
     # documentation.
-    print(delimitedList([3, 2, 1], separator='...'))
+    print(delimited_list([3, 2, 1], separator='...'))
 
 
 # This is a special condition that means when we execute

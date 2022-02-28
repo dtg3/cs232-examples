@@ -13,7 +13,7 @@ persistent storage for data.
 import os
 
 
-def parseLogEntry(entry):
+def parse_log_entry(entry):
     """Parse the apache log file entry
     for the following fields:
     
@@ -38,7 +38,7 @@ def parseLogEntry(entry):
     return (ip_address, date_time, request, request_code, request_size)
 
 
-def readApacheLogFile(file_path):
+def read_apache_log_file(file_path):
     """Read a apache log file
 
     Args:
@@ -59,7 +59,7 @@ def readApacheLogFile(file_path):
         for line in apache_log_file:
             # The strip function with no parameters removes
             # leading and trailing whitespace from a string
-            print(parseLogEntry(line.strip()))
+            print(parse_log_entry(line.strip()))
 
 
 def main():
@@ -76,7 +76,7 @@ def main():
     # Join the directory path with a filename for the intput using the
     # correct path separators depending on the OS (Win/Unix).
     input_file_path = os.path.join(absolute_path_to_directory, "log_2_small.txt")
-    readApacheLogFile(input_file_path)
+    read_apache_log_file(input_file_path)
 
 
 if __name__ == "__main__":
