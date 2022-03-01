@@ -26,7 +26,7 @@ import csv
 import os
 
 
-def process_CSV_file(input_file_path, output_file_path):
+def grade_distribution_report(input_file_path, output_file_path):
     """Read a comma separated values
     (CSV) file
 
@@ -42,8 +42,9 @@ def process_CSV_file(input_file_path, output_file_path):
         # input file in a comma separated format
         csv_data = csv.reader(csv_file)
         
-        # I'm using next to skips the csv header
-        # because I won't use this data
+        # I'm using next to skip the csv header
+        # (the first row) because I won't use
+        # this data
         next(csv_data)
 
         for line in csv_data:
@@ -63,6 +64,25 @@ def process_CSV_file(input_file_path, output_file_path):
             output_file.write(f"{key}: {value}\n")
 
 
+def final_grade_report(input_file_path):
+    """Read a comma separated values using the DictReader
+    To easily reference data based on the CSV header (the
+    first row containing names for all the fields)
+
+    Args:
+        input_file_path (str): absolute path to a CSV file
+    """
+
+    with open(input_file_path, "r") as csv_file:
+        # Using the DictReader, the field name header
+        # supplied with some CSV files can be used to
+        # reference the data instead of simply using
+        # list indices.
+        reader = csv.DictReader(csv_file)
+        for row in reader:
+            print(f"{row['Firstname']} {row['Lastname']}: {row['Grade']}")
+
+
 def main():
     # If this script in not run within this directory, we will not be
     # able to find grades.csv via a relative path. Python can help us
@@ -79,7 +99,9 @@ def main():
     input_file_path = os.path.join(absolute_path_to_directory, "grades.csv")
     output_file_path = os.path.join(absolute_path_to_directory, "report.txt")
     
-    process_CSV_file(input_file_path, output_file_path)
+    grade_distribution_report(input_file_path, output_file_path)
+
+    final_grade_report(input_file_path)
 
 
 if __name__ == "__main__":
