@@ -10,8 +10,10 @@ class Greeting:
         name (string): name of the person to greet
     """
 
-    # Python does NOT (natively) support overloading
-    # of methods. For example, we cannot have
+    # While Python provides some support overloading
+    # for overloading functions and methods in newer
+    # versions of Python. For example, we will not use
+    # this feature. As such, we cannot have
     # an init for multiple cases:
     #   __init__(self)       -> No arguments
     #   __init__(self, name) -> Provide a name
