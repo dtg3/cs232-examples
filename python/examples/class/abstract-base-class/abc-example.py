@@ -1,4 +1,7 @@
-from abc import ABC, abstractmethod
+# Required imports to create an abstract base class
+# with abstract methods
+from abc import ABC
+from abc import abstractmethod
 
 
 class Employee(ABC):
