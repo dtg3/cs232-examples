@@ -59,3 +59,4 @@ class Dog(Animal):
     def roll_over(self):
         """Action exclusive to the Dog class"""
         print("Dog rolls over")
+        
