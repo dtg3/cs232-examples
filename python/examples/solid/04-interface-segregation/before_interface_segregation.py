@@ -8,7 +8,8 @@
 # behvior it throws an exception if it is used. This is the
 # result of trying to tie the interface too closely to the
 # implementation and/or create a "one size fits all" abstraction.
-from abc import ABC, abstractmethod
+from abc import ABC
+from abc import abstractmethod
 
 
 class Order:

@@ -4,7 +4,8 @@
 # payment method we do not edit the class, but instead
 # inherit from it and implement a variation of the pay
 # function.
-from abc import ABC, abstractmethod
+from abc import ABC
+from abc import abstractmethod
 
 
 class Order:

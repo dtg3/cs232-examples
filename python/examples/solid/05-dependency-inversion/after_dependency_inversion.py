@@ -3,7 +3,8 @@
 # classes related to Authorization so we can easily add new
 # verification class and provide a shared interface so they
 # can be used interchangably.
-from abc import ABC, abstractmethod
+from abc import ABC
+from abc import abstractmethod
 
 class Order:
 
@@ -13,10 +14,12 @@ class Order:
         self.prices = []
         self.status = "open"
 
+
     def add_item(self, name, quantity, price):
         self.items.append(name)
         self.quantities.append(quantity)
         self.prices.append(price)
+
 
     def total_price(self):
         total = 0
@@ -42,9 +45,11 @@ class Authorizer_SMS(Authorizer):
     def __init__(self):
         self.authorized = False
 
+
     def verify_code(self, code):
         print(f"Verifying SMS code {code}")
         self.authorized = True
+
 
     def is_authorized(self):
         return self.authorized
@@ -54,9 +59,11 @@ class Authorizer_Google(Authorizer):
     def __init__(self):
         self.authorized = False
 
+
     def verify_code(self, code):
         print(f"Verifying Google auth code {code}")
         self.authorized = True
+
 
     def is_authorized(self):
         return self.authorized
@@ -66,8 +73,10 @@ class Authorizer_Robot(Authorizer):
     def __init__(self):
         self.authorized = False
 
+
     def not_a_robot(self):
         self.authorized = True
+
 
     def is_authorized(self):
         return self.authorized
@@ -91,6 +100,7 @@ class DebitPaymentProcessor(PaymentProcessor):
         self.security_code = security_code
         self.authorizer = authorizer
     
+
     def pay(self, order):
         if not self.authorizer.is_authorized():
             raise Exception("Not authorized")
@@ -98,20 +108,24 @@ class DebitPaymentProcessor(PaymentProcessor):
         print(f"Verifying security code: {self.security_code}")
         order.status = "paid"
 
+
 class CreditPaymentProcessor(PaymentProcessor):
 
     def __init__(self, security_code):
         self.security_code = security_code
+
 
     def pay(self, order):
         print("Processing credit payment type")
         print(f"Verifying security code: {self.security_code}")
         order.status = "paid"
 
+
 class PaypalPaymentProcessor(PaymentProcessor):
     def __init__(self, email_address, authorizer: Authorizer):
         self.email_address = email_address
         self.authorizer = authorizer
+
 
     def pay(self, order):
         if not self.authorizer.is_authorized():
@@ -121,14 +135,32 @@ class PaypalPaymentProcessor(PaymentProcessor):
         order.status = "paid"
 
 
-order = Order()
-order.add_item("Keyboard", 1, 50)
-order.add_item("SSD", 1, 150)
-order.add_item("USB cable", 2, 5)
+def main():
+    # Now we can take any authorizor
+    order1 = Order()
+    order1.add_item("Keyboard", 1, 50)
+    order1.add_item("SSD", 1, 150)
+    order1.add_item("USB cable", 2, 5)
 
-print(order.total_price())
-authorizer = Authorizer_Robot()
-# authorizer.verify_code(465839)
-authorizer.not_a_robot()
-processor = PaypalPaymentProcessor("hi@arjancodes.com", authorizer)
-processor.pay(order)
+    order2 = Order()
+    order2.add_item("GPU", 1, 2000)
+    order2.add_item("Bluetooth Mouse", 1, 50)
+    order2.add_item("CPU", 2, 300)
+
+    #   Robot Authorizor    
+    authorizer = Authorizer_Robot()
+    authorizer.not_a_robot()
+    processor = PaypalPaymentProcessor("dguarnera@wooster.edu", authorizer)
+    processor.pay(order1)
+    print(f"Payment: ${order1.total_price()}")
+
+    #   Google Authorizor
+    authorizer = Authorizer_Google()
+    authorizer.verify_code('myfakecode')
+    processor = DebitPaymentProcessor("dguarnera@wooster.edu", authorizer)
+    processor.pay(order2)
+    print(f"Payment: ${order2.total_price()}")
+
+
+if __name__ == "__main__":
+    main()

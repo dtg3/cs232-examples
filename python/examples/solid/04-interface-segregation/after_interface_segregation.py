@@ -11,7 +11,8 @@
 # SMS and one for non-sms behaviors. This can become problematic if
 # there end up being a variety or payment classes needing verification
 # methods, or even worse, require a combination of methods.
-from abc import ABC, abstractmethod
+from abc import ABC
+from abc import abstractmethod
 
 
 class Order:
@@ -115,7 +116,7 @@ def main():
     order.add_item("USB cable", 2, 5)
 
     print(order.total_price())
-    processor = PaypalPaymentProcessor("hi@arjancodes.com")
+    processor = PaypalPaymentProcessor("dguarnera@wooster.edu")
     processor.auth_sms(465839)
     processor.pay(order)
 

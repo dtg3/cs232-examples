@@ -12,7 +12,8 @@
 # need to ensure that they use the SMSAuthorizer object to verify
 # the SMS code without having to be concerned about the
 # implementation details.
-from abc import ABC, abstractmethod
+from abc import ABC
+from abc import abstractmethod
 
 
 class Order:
@@ -111,7 +112,7 @@ def main():
     print(order.total_price())
     authorizer = SMSAuthorizer()
     authorizer.verify_code(465839)
-    processor = PaypalPaymentProcessor("hi@arjancodes.com", authorizer)
+    processor = PaypalPaymentProcessor("dguarnera@wooster.edu", authorizer)
     processor.pay(order)
 
 
