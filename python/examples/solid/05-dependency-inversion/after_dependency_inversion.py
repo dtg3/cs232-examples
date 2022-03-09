@@ -147,14 +147,14 @@ def main():
     order2.add_item("Bluetooth Mouse", 1, 50)
     order2.add_item("CPU", 2, 300)
 
-    #   Robot Authorizor    
+    # Robot Authorizor    
     authorizer = Authorizer_Robot()
     authorizer.not_a_robot()
     processor = PaypalPaymentProcessor("dguarnera@wooster.edu", authorizer)
     processor.pay(order1)
     print(f"Payment: ${order1.total_price()}")
 
-    #   Google Authorizor
+    # Google Authorizor
     authorizer = Authorizer_Google()
     authorizer.verify_code('myfakecode')
     processor = DebitPaymentProcessor("dguarnera@wooster.edu", authorizer)
