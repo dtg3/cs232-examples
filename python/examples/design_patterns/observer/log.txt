@@ -1,0 +1,5 @@
+ERROR: Out of memory
+WARNING: No results found
+INFO: Data successfully loaded
+ERROR: File not found
+INFO: Data saved
