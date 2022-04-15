@@ -1,0 +1,978 @@
+Name,Age,Breed
+Annmarie,7,Scottish Terrier
+Bryon,4,Norfolk Terrier
+Jacklyn,1,Basenji
+Basil,2,Cesky Terrier
+Rita,6,Dachshunds
+Lila,6,Cardigan Welsh Corgi
+Barney,3,Soft-Coated Wheaten Terrier
+Don,7,Puli
+Melisa,2,Canaan Dog
+Harry,2,Manchester Terrier
+Bonnie,7,Briard
+Sharon,3,Basset Hound
+Rudolph,3,Welsh Springer Spaniel
+Roy,2,Airedale Terrier
+Alberta,4,French Bulldog
+Wendy,5,Cocker Spaniel
+Monique,5,Rat Terrier
+Deena,3,Cairn Terrier
+Justina,5,Berger Picard
+Marian,7,Coton de Tulear
+Renee,2,Chinese Shar Pei
+Amparo,1,Tibetan Mastiff
+Zachery,8,Brittany
+Hillary,3,Tibetan Spaniel
+Randy,1,Wirehaired Vizsla
+Hector,6,Welsh Terrier
+Cherie,4,Scottish Deerhound
+Lottie,1,Bullmastiff
+Frederic,3,Beagle
+Kyle,7,Siberian Husky
+Darryl,8,Komondor
+Phoebe,3,English Toy Spaniel
+Alma,1,Pembroke Welsh Corgi
+Arron,3,Mastiff
+Sharlene,1,Puli
+Sandy,2,Spanish Water Dog
+Millard,7,Finnish Spitz
+Rae,1,Basenji
+Cora,8,Smooth Fox Terrier
+Josefina,1,Cane Corso
+Jill,6,Boykin Spaniel
+Aisha,7,Kerry Blue Terrier
+Jake,1,Boston Terrier
+Scot,4,Border Collie
+Carla,2,Borzoi
+Carlton,6,Norfolk Terrier
+Adan,8,Miniature Pinscher
+Ofelia,2,Australian Terrier
+Alberto,6,English Setter
+Patrice,1,Chinook
+Branden,4,Lagotto Romagnolo
+Debbie,3,Chesapeake Bay Retriever
+Rodolfo,7,Lhasa Apso
+Andrew,7,Border Collie
+Wm,4,Bulldog
+Brock,1,Tibetan Spaniel
+Gena,3,Welsh Springer Spaniel
+Gale,4,Greyhound
+Estelle,1,English Setter
+Kristina,4,Keeshond
+Sammie,3,Cardigan Welsh Corgi
+Selena,7,Dalmatian
+Herman,5,Australian Cattle Dog
+Buddy,3,Shetland Sheepdog
+Zelma,7,Gordon Setter
+Bridget,8,Miniature American Shepherd
+Jacqueline,4,Lagotto Romagnolo
+Vernon,8,Chihuahua
+Tania,7,Sussex Spaniel
+Kristie,8,Old English Sheepdog
+Randy,6,Finnish Lapphund
+Ismael,6,German Shepherd Dog
+Jonathan,6,Berger Picard
+Jillian,7,Cairn Terrier
+Shelton,8,Flat-Coated Retriever
+Jackie,1,Ibizan Hound
+Malinda,7,Cairn Terrier
+Erica,3,Pyrenean Shepherd
+Michelle,2,Wire Fox Terrier
+Kendra,4,Borzoi
+Rosella,4,Portuguese Podengo Pequeno
+Harry,5,Cavalier King Charles Spaniel
+Georgia,4,Chinook
+Charity,8,Plott
+Edmond,7,English Toy Spaniel
+Chris,3,Swedish Vallhund
+Drew,5,Bloodhound
+Doyle,8,Finnish Lapphund
+Dudley,6,Cane Corso
+Orlando,4,Lakeland Terrier
+Kaitlyn,6,Finnish Spitz
+Suzanne,2,Tibetan Mastiff
+Pablo,1,Great Dane
+Bennie,5,Flat-Coated Retriever
+Judy,4,St. Bernard
+Horace,4,Welsh Springer Spaniel
+Sadie,6,Neapolitan Mastiff
+Amalia,7,Tibetan Terrier
+Lorna,2,Wirehaired Pointing Griffon
+Willard,3,Portuguese Podengo Pequeno
+Alexander,6,Dandie Dinmont Terrier
+Isabel,8,Welsh Springer Spaniel
+Colette,3,Norwich Terrier
+Lacy,5,American Staffordshire Terrier
+Judith,4,Great Dane
+Sonja,4,Labrador Retriever
+Matthew,4,Miniature American Shepherd
+Gustavo,8,Otterhound
+Burton,3,Dalmatian
+Peggy,7,American Eskimo Dog (Toy)
+Abby,6,Portuguese Podengo Pequeno
+Paula,8,Pumi
+Kristin,8,Pumi
+Ma,6,Boxer
+Dessie,5,American Staffordshire Terrier
+Rowena,2,Belgian Sheepdog
+Jeannette,4,Tibetan Spaniel
+Lilly,5,Berger Picard
+Andrew,8,Anatolian Shepherd Dog
+Trina,4,Dandie Dinmont Terrier
+Freddy,4,Belgian Tervuren
+Billie,1,Pharaoh Hound
+Stefan,2,American Staffordshire Terrier
+Alexandria,1,Cavalier King Charles Spaniel
+Carson,2,Welsh Springer Spaniel
+Kaye,1,Greyhound
+Bianca,8,Kuvasz
+Janine,1,Lakeland Terrier
+Tyler,7,Boykin Spaniel
+Vera,7,Lakeland Terrier
+Cecilia,5,Sealyham Terrier
+Holly,6,Dandie Dinmont Terrier
+Gary,3,Mastiff
+Nanette,3,Irish Water Spaniel
+Helene,1,Shih Tzu
+Rosario,4,Briard
+Adeline,2,Chow Chow
+Elias,5,Weimaraner
+Franklin,5,Brittany
+Josh,2,Irish Terrier
+Carmen,3,Pekingese
+Selma,2,Cane Corso
+Jeremiah,7,Samoyed
+Chad,4,Dogue de Bordeaux
+Clara,8,Alaskan Malamute
+Tori,8,Dalmatian
+Avery,8,German Pinscher
+Dena,2,Gordon Setter
+Debora,7,Dachshunds
+Ilene,3,Yorkshire Terrier
+Irma,2,English Foxhound
+Lula,8,Dachshunds
+Clay,6,Norwegian Lundehund
+Sam,2,Shiba Inu
+Gerardo,3,Bouvier des Flandres
+Kathleen,1,Cirneco dell'Etna
+Wilfred,8,English Foxhound
+Celina,1,Spanish Water Dog
+Melba,4,Labrador Retriever
+Millie,2,Briard
+Wilmer,4,Basset Hound
+Sharon,6,Bull Terrier
+Deirdre,1,American Foxhound
+Nicole,2,Chinese Crested Dog
+Allene,3,Akita
+Darren,3,Brittany
+Carey,5,Plott
+Eric,7,Skye Terrier
+Rosemarie,4,Chinese Crested Dog
+Leonel,6,Irish Setter
+Rusty,1,Xoloitzcuintli
+Antoine,8,Toy Fox Terrier
+Maryanne,8,Portuguese Podengo Pequeno
+Gretchen,2,Sealyham Terrier
+Sherman,4,Coton de Tulear
+Latisha,2,Poodle
+Candice,2,Brussels Griffon
+Cheryl,7,Pekingese
+Rhea,4,American Eskimo Dog (Toy)
+Frieda,1,Chow Chow
+Duane,6,Belgian Sheepdog
+Nola,3,Scottish Deerhound
+Freddie,6,Mastiff
+Hal,8,Basset Hound
+Lois,1,Flat-Coated Retriever
+Lauren,1,Affenpinscher
+Carlton,6,Black Russian Terrier
+Kathleen,2,Irish Terrier
+Kermit,7,Greyhound
+Janette,6,Bedlington Terrier
+Elsie,5,American Eskimo Dog (Standard)
+Krista,7,Lakeland Terrier
+Virgil,2,Shih Tzu
+Judi,5,German Wirehaired Pointer
+Liliana,1,Afghan Hound
+Kathi,5,Brussels Griffon
+Kristy,5,Welsh Springer Spaniel
+Raphael,1,Manchester Terrier
+Freida,8,Lagotto Romagnolo
+Eva,7,Basenji
+Jacob,2,Giant Schnauzer
+Garland,1,Anatolian Shepherd Dog
+Otto,4,Australian Cattle Dog
+Tracey,4,Sloughi
+Mari,3,Lagotto Romagnolo
+Mack,8,Chinook
+Trudy,2,Great Dane
+Ethan,6,Brussels Griffon
+Nelson,5,Soft-Coated Wheaten Terrier
+Sophia,1,Miniature Schnauzer
+Fidel,5,Otterhound
+Valeria,3,Bearded Collie
+Louella,1,Labrador Retriever
+Miranda,6,Irish Red and White Setter
+Alexandria,4,Mastiff
+Max,7,Belgian Tervuren
+Leland,4,Berger Picard
+Cindy,6,Great Pyrenees
+Kerri,1,American Water Spaniel
+Imelda,7,Wire Fox Terrier
+Antionette,2,Pointer
+Ronald,5,Pekingese
+Dane,3,Irish Red and White Setter
+Louis,3,Puli
+Miriam,7,Bloodhound
+Benjamin,2,Irish Water Spaniel
+Jerry,8,Japanese Chin
+Kendall,7,Russell Terrier
+Charity,2,Irish Water Spaniel
+Sabrina,3,Pomeranian
+Leonardo,4,Italian Greyhound
+Misty,1,Italian Greyhound
+Nelda,8,Wirehaired Vizsla
+Dollie,2,Spinone Italiano
+Aisha,6,Saluki
+Carson,6,Dachshunds
+Barbra,7,Clumber Spaniel
+Ernest,7,Curly-Coated Retriever
+Sanford,4,Welsh Terrier
+Carey,5,Irish Red and White Setter
+Luann,6,Sussex Spaniel
+Laverne,4,Bearded Collie
+Doris,2,Sealyham Terrier
+Pamela,1,Brussels Griffon
+Roderick,3,Bulldog
+Alba,4,Pyrenean Shepherd
+Alfonso,7,Siberian Husky
+Mellisa,5,Pomeranian
+Dora,2,Komondor
+Ashley,8,Collie
+Reginald,3,Weimaraner
+Margie,8,Cocker Spaniel
+Rachael,5,Tibetan Terrier
+Lavonne,3,Chinook
+Alma,8,Chinese Shar Pei
+Mandy,5,Pumi
+Susana,7,Labrador Retriever
+Ashlee,1,Miniature Schnauzer
+Son,8,Bearded Collie
+Elvia,7,Havanese
+Zachary,8,Swedish Vallhund
+Rhoda,3,Golden Retriever
+Booker,1,Shih Tzu
+Fred,2,Border Collie
+Alton,2,Bernese Mountain Dog
+Erin,3,Rottweiler
+Lincoln,4,Whippet
+Rudolph,6,Sealyham Terrier
+Haley,4,Clumber Spaniel
+Donovan,2,Bernese Mountain Dog
+Ray,4,Lagotto Romagnolo
+Eloise,2,Silky Terrier
+Lucille,7,German Wirehaired Pointer
+Miranda,7,Berger Picard
+Celia,6,Basenji
+Clifton,3,Beagle
+Sophia,3,Welsh Springer Spaniel
+Gerry,2,St. Bernard
+Misty,6,Bergamasco
+Jim,2,Welsh Springer Spaniel
+Kendall,3,Silky Terrier
+Tracie,8,Canaan Dog
+Noah,1,Pyrenean Shepherd
+Lakeisha,6,Chow Chow
+Ashlee,5,Dandie Dinmont Terrier
+Jimmy,6,Cavalier King Charles Spaniel
+Ed,7,Giant Schnauzer
+Deana,4,English Toy Spaniel
+Luke,2,Bouvier des Flandres
+Cedric,2,Alaskan Malamute
+Reuben,4,Swedish Vallhund
+Celeste,8,Pharaoh Hound
+Chase,1,Chinese Crested Dog
+Ramona,4,Irish Setter
+Katie,7,Berger Picard
+Rachael,1,Doberman Pinscher
+Patrick,7,Border Collie
+Ramona,7,Parson Russell Terrier
+Florence,3,Puli
+Joey,8,Plott
+Rosetta,2,Basset Hound
+Nola,4,Toy Fox Terrier
+Lindsay,7,Beauceron
+Carter,3,Chihuahua
+Rodolfo,6,Belgian Tervuren
+Jesse,1,Petit Basset Griffon Vendéen
+Maryanne,6,Manchester Terrier
+Rhoda,1,Affenpinscher
+Kendrick,6,Spinone Italiano
+Salvatore,3,Siberian Husky
+Rachelle,7,Clumber Spaniel
+Lakisha,1,Bearded Collie
+Marian,1,American Foxhound
+Federico,3,Soft-Coated Wheaten Terrier
+Howard,2,Black Russian Terrier
+Emilia,4,Rhodesian Ridgeback
+Reba,4,Coton de Tulear
+Sydney,5,Scottish Terrier
+Elma,8,Tibetan Spaniel
+Pamala,5,Old English Sheepdog
+Karla,1,Chinese Shar Pei
+Clare,3,Lhasa Apso
+Emerson,2,Puli
+Sara,1,Icelandic Sheepdog
+Margie,7,Parson Russell Terrier
+Simon,1,Cairn Terrier
+Dora,4,Wirehaired Vizsla
+Magdalena,4,Miniature American Shepherd
+Elliott,7,Sloughi
+Darren,7,Lakeland Terrier
+Cary,4,Coton de Tulear
+Theron,2,Chihuahua
+Lelia,7,Weimaraner
+Emilie,6,Norwegian Buhund
+Genaro,8,Norfolk Terrier
+Esperanza,7,Cocker Spaniel
+Frank,7,German Pinscher
+Lucas,3,Clumber Spaniel
+Terence,8,Alaskan Malamute
+Hallie,7,Russell Terrier
+Imogene,1,Scottish Deerhound
+Karl,6,Cavalier King Charles Spaniel
+Jame,2,American Eskimo Dog (Standard)
+Catalina,1,Chow Chow
+Susanna,6,St. Bernard
+Sylvester,2,Chihuahua
+Elmer,2,Boykin Spaniel
+Jessica,4,Standard Schnauzer
+Erna,1,Greater Swiss Mountain Dog
+Clarice,7,Keeshond
+Lois,1,American Water Spaniel
+Meghan,7,American Staffordshire Terrier
+Cruz,4,Lhasa Apso
+Paige,8,Lhasa Apso
+Otis,5,Chinook
+Jeanne,5,Cane Corso
+Damon,5,Weimaraner
+Pasquale,5,Rhodesian Ridgeback
+Jami,1,Brussels Griffon
+Israel,6,Pug
+Tara,2,Belgian Tervuren
+Lolita,6,Cane Corso
+Wilmer,8,Petit Basset Griffon Vendéen
+Alyssa,4,English Springer Spaniel
+Ingrid,7,Greyhound
+Cornelia,7,Chesapeake Bay Retriever
+Thaddeus,6,Leonberger
+Lizzie,5,St. Bernard
+Nicole,4,Finnish Lapphund
+Reginald,8,Great Dane
+Richard,8,Beauceron
+Elliot,6,Labrador Retriever
+Maria,4,Miniature Pinscher
+Sherry,8,Kuvasz
+Terence,7,Standard Schnauzer
+Ian,4,American Staffordshire Terrier
+Pamela,5,American Hairless Terrier
+Jeri,1,Shih Tzu
+Saul,3,Norwegian Buhund
+Young,1,Manchester Terrier
+Wm,7,Old English Sheepdog
+Rocky,5,Pointer
+Nancy,6,Tibetan Mastiff
+Cecil,8,Lagotto Romagnolo
+Kelli,8,Clumber Spaniel
+Susana,3,Tibetan Mastiff
+Brandi,7,Manchester Terrier
+Lisa,7,Shetland Sheepdog
+Gussie,4,Great Pyrenees
+Terry,6,French Bulldog
+Kelsey,6,Harrier
+Matt,2,Chinese Crested Dog
+Gabriela,7,Spinone Italiano
+Emery,7,Chesapeake Bay Retriever
+Millie,4,Bedlington Terrier
+Marty,3,Golden Retriever
+Angelique,3,Cairn Terrier
+Mayra,2,German Pinscher
+Dexter,1,Poodle
+Esperanza,1,Belgian Sheepdog
+Mandy,4,Border Terrier
+Sue,5,Scottish Deerhound
+Nick,7,Miniature Schnauzer
+Dante,2,Staffordshire Bull Terrier
+Justina,5,Soft-Coated Wheaten Terrier
+Daryl,8,Weimaraner
+Royce,8,English Cocker Spaniel
+Wendy,7,Miniature American Shepherd
+Audra,1,Basenji
+Lloyd,8,Rat Terrier
+Alexis,5,Miniature Pinscher
+Emanuel,3,Anatolian Shepherd Dog
+Janelle,4,Japanese Chin
+Valerie,2,Boerboel
+Tomas,6,Briard
+Jason,4,Australian Terrier
+Otto,2,Pointer
+Emanuel,3,Rottweiler
+Kristi,4,Belgian Tervuren
+Enrique,8,Rhodesian Ridgeback
+Estela,6,English Toy Spaniel
+Aimee,4,Great Dane
+Pansy,5,Great Dane
+Mavis,1,Leonberger
+Leonor,4,Basenji
+Bernice,8,Irish Terrier
+Josue,7,Norfolk Terrier
+Graham,7,Glen of Imaal Terrier
+Josh,5,Sussex Spaniel
+Marie,8,Finnish Spitz
+Mavis,3,Norwich Terrier
+Tracey,4,Siberian Husky
+Gloria,2,Rottweiler
+Chandra,6,Old English Sheepdog
+Lea,4,Keeshond
+Deanna,6,Irish Wolfhound
+Stewart,4,Lagotto Romagnolo
+Rocky,6,American Staffordshire Terrier
+Myron,7,Australian Cattle Dog
+Amelia,2,Bulldog
+Alice,8,Border Terrier
+Carol,3,Wirehaired Vizsla
+Lola,6,Brussels Griffon
+Lilly,5,Spanish Water Dog
+Laurence,1,Miniature American Shepherd
+Alyson,1,Silky Terrier
+Jeannette,3,Australian Terrier
+Vicki,5,Vizsla
+Malcolm,1,Boston Terrier
+Madeline,2,Cirneco dell'Etna
+Glenn,3,Bloodhound
+Chase,8,Great Pyrenees
+Juliana,4,Belgian Malinois
+Ernestine,7,Pyrenean Shepherd
+Austin,5,Japanese Chin
+Delia,1,Black Russian Terrier
+Grady,1,Belgian Malinois
+Jeff,1,Plott
+Ellen,3,Canaan Dog
+Ann,7,Australian Shepherd
+Tyrone,8,Norwich Terrier
+Charmaine,2,Border Collie
+Randall,3,Lhasa Apso
+Rocio,7,Boston Terrier
+Marylou,1,Spinone Italiano
+Domingo,3,Havanese
+Gena,7,Bullmastiff
+Joaquin,5,Berger Picard
+Gary,5,Rat Terrier
+Angelita,2,Samoyed
+Ted,1,Gordon Setter
+Rick,4,Pembroke Welsh Corgi
+Annie,7,Chow Chow
+Ronald,8,Miniature Pinscher
+Jill,3,Maltese
+George,1,Giant Schnauzer
+Mohammad,1,Bloodhound
+Russel,3,Pomeranian
+Vivian,8,Saluki
+Effie,6,Dandie Dinmont Terrier
+Lynne,8,Dalmatian
+Carlo,7,Mastiff
+Rick,3,Cesky Terrier
+Drew,3,Finnish Lapphund
+Janet,1,Boerboel
+Mari,3,Polish Lowland Sheepdog
+Wilfred,5,Manchester Terrier
+Maynard,5,Field Spaniel
+Hans,6,Brussels Griffon
+Ines,4,American Foxhound
+Dion,5,Bedlington Terrier
+Gale,8,Boston Terrier
+Jenna,1,Boykin Spaniel
+Gay,3,Glen of Imaal Terrier
+Letitia,8,Russell Terrier
+Harvey,3,Pembroke Welsh Corgi
+Alberta,4,Lhasa Apso
+Nicole,8,St. Bernard
+Nelly,4,Wirehaired Vizsla
+Lina,3,Wirehaired Pointing Griffon
+Clare,6,Pumi
+Natalia,3,Chinese Shar Pei
+Dylan,4,Rat Terrier
+Karen,8,Scottish Deerhound
+Joni,2,Great Dane
+Marissa,3,Pomeranian
+Andrea,5,Miniature Pinscher
+Jeanie,3,Plott
+Christa,4,Manchester Terrier
+Jeannie,8,Bouvier des Flandres
+Laverne,8,Polish Lowland Sheepdog
+Christina,8,Vizsla
+Jodie,3,Sussex Spaniel
+Becky,1,Brittany
+Monika,3,Polish Lowland Sheepdog
+Earline,1,Irish Water Spaniel
+Son,1,Cavalier King Charles Spaniel
+Jill,4,Bulldog
+Walter,5,Norwegian Buhund
+Xavier,1,Pumi
+Alejandro,5,Toy Fox Terrier
+Blake,7,Cavalier King Charles Spaniel
+Elaine,5,Affenpinscher
+Hans,3,Pembroke Welsh Corgi
+Rhea,4,American Eskimo Dog (Miniature)
+Ruby,7,Saluki
+Deidra,6,Dogue de Bordeaux
+Rodney,7,Finnish Lapphund
+Adrian,2,Boston Terrier
+Branden,7,Gordon Setter
+Amanda,5,Glen of Imaal Terrier
+Errol,2,American Eskimo Dog (Toy)
+Mack,3,West Highland White Terrier
+Dayna,1,Cesky Terrier
+Leonel,4,Keeshond
+Ladonna,4,Border Collie
+Allison,2,Bouvier des Flandres
+Lance,8,Briard
+Jon,5,Swedish Vallhund
+Fredrick,3,Standard Schnauzer
+Callie,5,Toy Fox Terrier
+Elaine,1,Toy Fox Terrier
+Jonathon,4,Coton de Tulear
+Ashleigh,3,Mastiff
+Raymundo,2,Pumi
+Hiram,8,Chihuahua
+Sallie,7,Rhodesian Ridgeback
+Darlene,7,Saluki
+Terrell,2,Silky Terrier
+Karin,8,Skye Terrier
+Angela,6,Cavalier King Charles Spaniel
+Kaitlin,8,Kerry Blue Terrier
+Lula,7,Akita
+Molly,7,Bullmastiff
+Monte,2,Anatolian Shepherd Dog
+Shaun,4,American Staffordshire Terrier
+Garry,5,Airedale Terrier
+Anthony,6,Tibetan Terrier
+Summer,4,Basenji
+Cherie,5,Bedlington Terrier
+Jimmie,8,Pharaoh Hound
+Adrian,8,German Wirehaired Pointer
+Justine,4,Polish Lowland Sheepdog
+Wallace,8,Ibizan Hound
+Malinda,5,Grim
+Luz,1,Norwegian Buhund
+Laurie,7,Plott
+Jake,1,Petit Basset Griffon Vendéen
+Karina,2,Samoyed
+Kenya,7,Beagle
+Lynda,4,Bull Terrier
+Bethany,7,German Shepherd Dog
+Gavin,3,Weimaraner
+Dayna,1,English Toy Spaniel
+Renae,4,Poodle
+Dallas,8,Finnish Lapphund
+Gena,3,Chesapeake Bay Retriever
+Pamela,8,Cirneco dell'Etna
+Pedro,2,Glen of Imaal Terrier
+Julia,7,Finnish Spitz
+Nestor,4,Great Dane
+Rosalind,1,Rottweiler
+Bradley,8,Basset Hound
+Bennett,2,Chihuahua
+Russel,2,Bouvier des Flandres
+Teddy,5,Saluki
+Charlene,5,Black Russian Terrier
+Karina,8,Smooth Fox Terrier
+Emilio,4,Lhasa Apso
+Sherman,5,Curly-Coated Retriever
+Rex,2,Border Terrier
+Melinda,1,Great Pyrenees
+Jeanette,1,Chinook
+Nadine,5,Smooth Fox Terrier
+Bianca,7,American Hairless Terrier
+Sheree,3,German Shorthaired Pointer
+Darcy,5,Beagle
+Harriett,8,Briard
+Joan,8,Siberian Husky
+Joni,7,American Hairless Terrier
+Vincent,6,Flat-Coated Retriever
+Kristine,4,Yorkshire Terrier
+Son,5,Xoloitzcuintli
+David,3,Samoyed
+Viola,1,Chinese Shar Pei
+Isabelle,3,Norwich Terrier
+Ken,4,Bouvier des Flandres
+Octavio,7,Lhasa Apso
+Bennett,1,Scottish Deerhound
+Dollie,7,Chinook
+Camilla,2,Pembroke Welsh Corgi
+Brad,3,Dandie Dinmont Terrier
+Ira,3,Belgian Malinois
+Alexandra,6,American Eskimo Dog (Standard)
+Thomas,5,Greater Swiss Mountain Dog
+Carson,7,Toy Fox Terrier
+Maggie,6,Chihuahua
+Stuart,2,Cirneco dell'Etna
+Rosalinda,3,Bichon Frisé
+Yvonne,1,Tibetan Mastiff
+Santiago,3,Schipperke
+Nick,6,Maltese
+Katelyn,4,Chesapeake Bay Retriever
+Barney,2,Miniature American Shepherd
+Kim,8,Wirehaired Vizsla
+Victoria,5,Bernese Mountain Dog
+Roosevelt,6,Yorkshire Terrier
+Johnathon,2,Great Pyrenees
+Elisabeth,1,Bernese Mountain Dog
+Candice,4,Poodle
+Josue,2,Chesapeake Bay Retriever
+Adolph,2,Russell Terrier
+Edith,1,Komondor
+Petra,5,Ibizan Hound
+Teresa,2,Old English Sheepdog
+Rodger,8,Rottweiler
+Imelda,4,Tibetan Spaniel
+Amber,7,Mastiff
+Maryann,6,Standard Schnauzer
+Everett,7,Keeshond
+Clint,7,Lakeland Terrier
+Alisha,7,Bouvier des Flandres
+Jimmy,6,Weimaraner
+Monty,8,Miniature Pinscher
+Jeanie,8,American Foxhound
+Alfred,6,Australian Terrier
+Mercedes,7,Rhodesian Ridgeback
+Nell,1,Australian Shepherd
+Jerome,1,Greyhound
+Karin,2,Wirehaired Vizsla
+Adan,7,Rhodesian Ridgeback
+Brandie,3,Curly-Coated Retriever
+Kristie,4,Skye Terrier
+Patrick,6,American Eskimo Dog (Miniature)
+Leo,4,Pyrenean Shepherd
+Scotty,4,West Highland White Terrier
+Thaddeus,1,German Wirehaired Pointer
+Raphael,6,Grim
+Doretha,8,Nova Scotia Duck-Tolling Retriever
+Carmen,6,Harrier
+Estella,1,Norfolk Terrier
+Michael,3,Siberian Husky
+Numbers,5,Giant Schnauzer
+Stephen,5,American Staffordshire Terrier
+Cheri,3,German Pinscher
+Monika,2,Entlebucher Mountain Dog
+Adelaide,2,Samoyed
+Ester,6,Belgian Sheepdog
+Amie,8,Norwegian Buhund
+Jacklyn,7,Norfolk Terrier
+Lynn,7,Spanish Water Dog
+Denis,3,Anatolian Shepherd Dog
+Edmond,1,Scottish Deerhound
+Lydia,4,Dandie Dinmont Terrier
+Otis,6,Petit Basset Griffon Vendéen
+Judy,7,Pharaoh Hound
+Shelby,2,Norwegian Elkhound
+Naomi,6,Basenji
+Lolita,2,Sussex Spaniel
+Evangelina,8,Cirneco dell'Etna
+Luz,1,Beauceron
+Jannie,3,Spinone Italiano
+Avery,3,Miniature Schnauzer
+Evan,3,Australian Shepherd
+Janna,3,Lagotto Romagnolo
+Melody,4,Newfoundland
+Bettye,2,American Foxhound
+Marcel,3,American Foxhound
+Delmar,7,Bouvier des Flandres
+Estella,5,American Eskimo Dog (Standard)
+Patti,5,Siberian Husky
+Phyllis,3,American Eskimo Dog (Miniature)
+Freda,4,Cesky Terrier
+Cornell,2,American Staffordshire Terrier
+Marcus,3,Great Pyrenees
+Alyson,2,Maltese
+Leon,6,Boykin Spaniel
+Gussie,2,Kuvasz
+Noemi,8,Schipperke
+Romeo,1,Canaan Dog
+Roman,5,Papillon
+Margaret,8,Scottish Terrier
+Erna,3,Vizsla
+Chrystal,5,Bichon Frisé
+Floyd,4,Boston Terrier
+Antionette,8,Löwchen
+Dirk,4,Whippet
+Mallory,5,Great Dane
+Zelma,6,Norfolk Terrier
+Kristin,6,Standard Schnauzer
+Maricela,8,Bulldog
+Anne,5,Greyhound
+Felipe,4,Basset Hound
+Cleo,3,Australian Cattle Dog
+Maria,5,German Wirehaired Pointer
+Edwina,3,Wire Fox Terrier
+Kathrine,3,Dalmatian
+Phil,6,German Pinscher
+Antonio,6,Bulldog
+Holly,7,Basset Hound
+Avery,8,American Hairless Terrier
+Alfred,2,Briard
+Lori,6,Glen of Imaal Terrier
+Luann,8,English Setter
+Libby,3,Miniature Schnauzer
+Isaac,7,Bedlington Terrier
+Glen,7,English Foxhound
+Beverley,1,Smooth Fox Terrier
+Vonda,5,Beagle
+Marina,3,Brittany
+Wendell,1,Rat Terrier
+Rocky,4,Grim
+Ofelia,4,Japanese Chin
+Norris,3,English Foxhound
+Deirdre,4,Boykin Spaniel
+Whitney,5,Skye Terrier
+Iva,1,Ibizan Hound
+Domingo,7,Lagotto Romagnolo
+Roosevelt,1,Clumber Spaniel
+Terrie,3,Bearded Collie
+Patrica,8,Australian Shepherd
+Christian,8,Havanese
+Fanny,2,Brittany
+Bridget,8,Scottish Terrier
+Joanne,4,Wirehaired Vizsla
+Millard,4,Swedish Vallhund
+Trina,4,Rhodesian Ridgeback
+Johnathon,7,West Highland White Terrier
+Katherine,3,Affenpinscher
+Tina,5,Cane Corso
+Sabrina,4,Weimaraner
+Bill,7,Pomeranian
+Tristan,6,Dachshunds
+Casandra,3,Puli
+Guillermo,2,Otterhound
+Maria,2,Icelandic Sheepdog
+Hope,4,Miniature Schnauzer
+Jayne,3,Belgian Sheepdog
+Loraine,3,Bouvier des Flandres
+Jeffry,2,Airedale Terrier
+Arline,4,Pug
+Austin,1,Smooth Fox Terrier
+Vicente,1,Norwegian Elkhound
+Beulah,1,American Staffordshire Terrier
+Lakisha,7,Scottish Deerhound
+Doug,1,Chesapeake Bay Retriever
+Leola,6,Chesapeake Bay Retriever
+Bobby,2,Chihuahua
+Latonya,7,Black Russian Terrier
+Rhoda,8,Belgian Malinois
+Araceli,6,Bergamasco
+Whitney,7,Bloodhound
+Armando,3,Great Pyrenees
+Arturo,3,Toy Fox Terrier
+Simone,5,Smooth Fox Terrier
+Daren,7,Dogue de Bordeaux
+Ann,3,Silky Terrier
+Clifton,7,Akita
+Lorie,1,Finnish Spitz
+Chrystal,7,Cairn Terrier
+Lela,4,Brussels Griffon
+Lucile,2,Great Dane
+Sonia,2,English Springer Spaniel
+Claudia,3,Löwchen
+Fay,6,Golden Retriever
+Murray,5,Brittany
+Vincent,7,Wire Fox Terrier
+Mona,6,Boykin Spaniel
+Mattie,4,Boxer
+Ophelia,6,Scottish Deerhound
+Liza,6,Chihuahua
+Mae,7,Wirehaired Vizsla
+Jermaine,2,Polish Lowland Sheepdog
+Kelley,3,American Water Spaniel
+Brandon,7,Miniature Pinscher
+Darrin,2,Briard
+Danial,2,Coton de Tulear
+Joan,7,Rat Terrier
+Yvonne,3,German Shepherd Dog
+Reyna,8,Schipperke
+Isabella,2,Ibizan Hound
+Bettie,3,German Shorthaired Pointer
+Lorene,8,Airedale Terrier
+Savannah,1,Beauceron
+Diego,7,Komondor
+Susanna,1,Whippet
+Brooke,8,Irish Wolfhound
+Emerson,4,Bulldog
+Francine,7,Newfoundland
+Brigitte,7,Saluki
+Mariana,4,Tibetan Terrier
+Rocky,6,German Wirehaired Pointer
+Darrel,1,Affenpinscher
+Emory,3,English Foxhound
+Mario,2,Belgian Malinois
+Ian,5,Samoyed
+Jo,6,Boxer
+Nell,1,Rottweiler
+Philip,1,Soft-Coated Wheaten Terrier
+Rob,7,Bearded Collie
+Shana,2,Tibetan Mastiff
+Leonard,4,Wire Fox Terrier
+Brandon,1,Kuvasz
+Graham,4,Clumber Spaniel
+Beatriz,4,Maltese
+Todd,4,English Setter
+Leonardo,8,Welsh Terrier
+Gayla,3,Saluki
+Marvin,5,Dalmatian
+Phoebe,8,Weimaraner
+Paulette,7,Chinese Shar Pei
+Genevieve,6,Airedale Terrier
+Esteban,5,Doberman Pinscher
+Aline,2,Cardigan Welsh Corgi
+Betsy,5,Nova Scotia Duck-Tolling Retriever
+Cassandra,2,Pharaoh Hound
+Lance,6,Bearded Collie
+Sheryl,5,Miniature Schnauzer
+Ulysses,1,Puli
+Carlene,5,Chihuahua
+Mai,5,Cardigan Welsh Corgi
+Karen,5,Cane Corso
+Garland,4,American Water Spaniel
+Edith,5,Labrador Retriever
+Tamera,4,German Pinscher
+Marlon,7,Maltese
+Wilda,6,Golden Retriever
+Traci,2,Gordon Setter
+Jodie,8,West Highland White Terrier
+Carmen,6,Alaskan Malamute
+Penelope,1,Plott
+Cortney,4,Saluki
+Cora,7,Wirehaired Pointing Griffon
+Patricia,7,Field Spaniel
+Ashleigh,1,Maltese
+Dane,5,Skye Terrier
+Robyn,7,Belgian Sheepdog
+Gale,8,Cirneco dell'Etna
+Vicky,8,Silky Terrier
+Bonita,8,Kuvasz
+Drew,8,Harrier
+Socorro,5,Bulldog
+Francesca,5,Coton de Tulear
+Nell,3,Lakeland Terrier
+Sofia,2,Belgian Malinois
+Lynn,1,Newfoundland
+Travis,6,Dogue de Bordeaux
+Nona,8,Cesky Terrier
+Mindy,2,St. Bernard
+Christy,5,Bull Terrier
+Estelle,8,American Eskimo Dog (Miniature)
+Maryann,6,Lhasa Apso
+Maynard,3,Newfoundland
+Juanita,2,Irish Setter
+Antonia,4,Basset Hound
+Adan,3,Welsh Terrier
+Kenya,7,Saluki
+Deidra,6,Italian Greyhound
+Gerard,8,Chinook
+Gus,1,Pekingese
+Kirby,4,Lagotto Romagnolo
+Brian,5,Spinone Italiano
+Doretha,3,Cane Corso
+Romeo,6,Borzoi
+Dolly,6,Cairn Terrier
+Josue,7,Rottweiler
+Trudy,5,Bearded Collie
+Iva,2,Boerboel
+Carlton,7,Tibetan Terrier
+Adolfo,6,Staffordshire Bull Terrier
+Ned,6,Chinese Shar Pei
+Heidi,6,Scottish Deerhound
+Sonya,4,Finnish Lapphund
+Tania,1,Brittany
+Gilda,1,Miniature Bull Terrier
+Carmela,1,Norwegian Buhund
+Berta,1,American Eskimo Dog (Toy)
+Janis,4,Boston Terrier
+Gayla,8,English Setter
+Amanda,8,Silky Terrier
+Brianna,4,Great Pyrenees
+Ashley,2,Pomeranian
+Russel,7,English Toy Spaniel
+Paul,6,Basenji
+Juana,8,Rat Terrier
+Mollie,7,Brussels Griffon
+Ora,3,Poodle
+May,5,Basenji
+Herbert,3,Kuvasz
+Maude,3,Kuvasz
+Hester,3,Greater Swiss Mountain Dog
+Lottie,5,German Wirehaired Pointer
+Norbert,2,American Eskimo Dog (Toy)
+Diego,1,Norwich Terrier
+Beatriz,7,Tibetan Spaniel
+Preston,7,Doberman Pinscher
+Enrique,6,Sealyham Terrier
+Etta,8,Löwchen
+Sanford,3,Chow Chow
+Oscar,6,Miniature Bull Terrier
+Iva,1,Tibetan Spaniel
+Inez,4,Shiba Inu
+Nan,6,Kuvasz
+Son,5,German Shepherd Dog
+Vanessa,1,Cirneco dell'Etna
+Gilda,3,American Eskimo Dog (Miniature)
+Robby,5,Bull Terrier
+Kristi,8,Bloodhound
+Maura,3,Border Terrier
+Chuck,8,Old English Sheepdog
+Blanca,1,Basset Hound
+Fanny,5,Skye Terrier
+Woodrow,7,Miniature Pinscher
+Booker,2,Black Russian Terrier
+Jan,7,Norwegian Buhund
+Lillie,5,Bergamasco
+Shauna,3,Cairn Terrier
+David,4,Cavalier King Charles Spaniel
+Rosanna,5,Swedish Vallhund
+Earlene,3,Samoyed
+Blanca,3,Ibizan Hound
+Trudy,6,Toy Fox Terrier
+Damien,2,Great Dane
+Patricia,7,American Eskimo Dog (Toy)
+Dalton,4,Pumi
+Graham,1,Welsh Terrier
+Otto,6,Border Terrier
+Betsy,1,Manchester Terrier
+Greg,6,Miniature Pinscher
+Carolyn,2,Irish Water Spaniel
+Mario,3,Australian Terrier
+Joyce,3,Vizsla
+Bessie,1,German Shorthaired Pointer
+Hector,2,Portuguese Water Dog
+Alejandra,2,Doberman Pinscher
+Candace,3,Swedish Vallhund
+Leslie,8,Bernese Mountain Dog
+Micheal,8,Norfolk Terrier
+August,4,Pointer
+Lauren,6,Welsh Terrier
+Helen,5,Maltese
+Elliot,8,English Setter
+Lorenzo,1,Boston Terrier
+Lakeisha,4,Bull Terrier
+Lourdes,2,Leonberger
+Emerson,2,Sussex Spaniel
+Lana,8,Silky Terrier
+Latisha,8,Rottweiler
+Yvette,1,Bearded Collie
+Beth,7,Keeshond
+Adele,7,Berger Picard
+Vernon,4,Border Collie
+Audra,2,German Shepherd Dog
+Tyler,1,Rat Terrier
+Marty,5,Pug
+Dixie,4,Dogue de Bordeaux
+Caryn,4,Keeshond

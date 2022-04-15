@@ -11,16 +11,9 @@ from dog_db import DogDB
 from dog_db import Dog
 from init_db import  setup_database 
 
-# Load data the .env file into environment variables
 load_dotenv()
 
-
 def find_dogs(database):
-    """
-    Find a dog in the database via use input
-
-    :param database: MySQL database connection
-    """
     dog_name = input("Enter dog by name: ")
     result_set = database.get_dogs_by_name(dog_name)
     
@@ -30,11 +23,6 @@ def find_dogs(database):
 
 
 def add_dog(database):
-    """
-    Add a dog to the database via use input
-
-    :param database: MySQL database connection
-    """
     dog_name = input("Enter the dog's name: ")
     dog_age = int(input("Enter the dog's age: "))
     dog_breed = input("Enter the dog's breed: ")
@@ -43,18 +31,13 @@ def add_dog(database):
 
 
 def update_dog(database):
-    """
-    Update a dog to the database via use input
-
-    :param database: MySQL database connection
-    """
-    old_dog_name = input("Enter the name of the dog to update: ")
+    old_dog_id = int(input("Enter the id of the dog to update: "))
     new_dog_name = input("Enter the updated dog name: ")
     new_dog_age = int(input("Enter the updated dog age: "))
     new_dog_breed = input("Enter the updated dog breed: ")
 
     updated_dogs = database.update_dog(
-        old_dog_name, Dog(new_dog_name, new_dog_age, new_dog_breed)
+        old_dog_id, Dog(new_dog_name, new_dog_age, new_dog_breed)
     )
 
     for dog in updated_dogs:
@@ -62,11 +45,6 @@ def update_dog(database):
 
 
 def remove_dog(database):
-    """
-    Remove a dog to the database via use input
-
-    :param database: MySQL database connection
-    """
     dog_name = input("Enter the name of the dog to delete: ")
     database.delete_dog(dog_name)
 
@@ -103,7 +81,6 @@ def main():
             quit = option.lower() == 'q'
 
         print('')
-
 
 if __name__ == "__main__":
     main()
