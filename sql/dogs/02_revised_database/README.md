@@ -1,8 +1,11 @@
 To make this program work, you will need to create a file in this directory named `.env` (without the back ticks). Inside this file you can copy an pasted the data below into the `.env` file:
 
 DATABASE=dogdb
+
 DBHOST=localhost
+
 DBUSERNAME=[your mysql username here]
+
 DBPASSWORD=[your mysql password here]
 
 With the above data copied replace the bracketed username and password strings with your MySQL username and password respectively (again, do not keep the brackets).
