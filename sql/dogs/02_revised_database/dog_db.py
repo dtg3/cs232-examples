@@ -58,9 +58,6 @@ class Dog:
     def id(self):
         return self._id
 
-    def increment_age(self):
-        self._age += 1
-
 
 class DogDB:
     """
