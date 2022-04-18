@@ -45,8 +45,8 @@ def update_dog(database):
 
 
 def remove_dog(database):
-    dog_name = input("Enter the name of the dog to delete: ")
-    database.delete_dog(dog_name)
+    dog_id = int(input("Enter the id of the dog to delete: "))
+    database.delete_dog(dog_id)
 
 
 def main():
