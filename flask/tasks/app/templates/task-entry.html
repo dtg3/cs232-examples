@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h1>New Task:</h1>
+    <form action="/add-task" method="post">
+        <input autocomplete="off" autofocus name="task_description" placeholder="Task Description" type="text">
+        <input type="submit" value="Add Task">
+    </form>
+{% endblock %}
