@@ -1,6 +1,6 @@
 from flask import Blueprint, request, redirect
 from flask import render_template, g, Blueprint
-from api.task_api import Task, TaskDB
+from models.task import Task, TaskDB
 
 task_list_blueprint = Blueprint('task_list_blueprint', __name__)
 
