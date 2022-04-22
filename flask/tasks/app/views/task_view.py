@@ -16,7 +16,7 @@ def index():
     return render_template('index.html', todo_list=database.select_all_tasks())    
 
 
-@task_list_blueprint.route('/task-entry')
+@task_list_blueprint.route('/task-entry', methods=["GET"])
 def task_entry():
    return render_template("task-entry.html")
 
