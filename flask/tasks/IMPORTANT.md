@@ -22,6 +22,8 @@
   
   - `pip install -r requirements.txt`
 
+  - During the course of your project development if your project requires additional third-party python libraries/modules (things installed with `pip`), **MAKE SURE TO ADD THE DEPENDENCY TO THE `requirements.txt` FILE**.
+
 7. Run the bootstrap.py program
   
   - This will setup your `.env` and `.flaskenv` files
