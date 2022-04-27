@@ -1,6 +1,6 @@
 To make this program work, you will need to create a file in this directory named `.env` (without the back ticks). Inside this file you can copy an pasted the data below into the `.env` file:
 
-DATABASE=dogdb
+DATABASE=wootronics
 
 DBHOST=localhost
 
