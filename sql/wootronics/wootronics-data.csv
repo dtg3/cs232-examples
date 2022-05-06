@@ -1,11 +1,11 @@
 order_id,order_date,customer_id,first_name,last_name,customer_email,item_id,item_name,item_price_usd,company_id,company_name,phone_number
-1,4/9/22,1,Delila,Bownass,dbownass1@themeforest.net,1,Fire TV Stick 4K,44.99,1,Amazon,5903591712
-2,4/2/22,1,Delila,Bownass,dbownass1@themeforest.net,2,iPad Pro 11” 2020,799.99,2,Apple,3705158471
-3,3/28/22,2,Lucille,Lowen,llowen2@cnet.com,3,Soundcore Life Q20,54.99,3,Anker,6729865674
-4,4/2/22,3,Tuesday,Conahy,tconahy3@discovery.com,4,Chromebook S330,199.99,4,Lenovo,7358249958
-3,4/10/22,2,Lucille,Lowen,llowen2@cnet.com,2,iPad Pro 11” 2020,799.99,2,Apple,3705158471
-3,3/28/22,2,Lucille,Lowen,llowen2@cnet.com,5,Apple Watch Series 6,399.99,2,Apple,3705158471
-5,4/2/22,3,Tuesday,Conahy,tconahy3@discovery.com,4,Chromebook S330,199.99,4,Lenovo,7358249958
-6,4/2/22,4,Phaedra,Attew,pattew7@ask.com,3,Soundcore Life Q20,54.99,3,Anker,6729865674
-7,3/28/22,5,Kass,Bishopp,kbishopp8@tripod.com,2,iPad Pro 11” 2020,799.99,2,Apple,3705158471
-7,4/9/22,5,Kass,Bishopp,kbishopp8@tripod.com,5,Apple Watch Series 6,399.99,2,Apple,3705158471
+1,04-09-2022,1,Delila,Bownass,dbownass1@themeforest.net,1,Fire TV Stick 4K,44.99,1,Amazon,5903591712
+2,04-02-2022,1,Delila,Bownass,dbownass1@themeforest.net,2,iPad Pro 11” 2020,799.99,2,Apple,3705158471
+3,03-28-2022,2,Lucille,Lowen,llowen2@cnet.com,3,Soundcore Life Q20,54.99,3,Anker,6729865674
+4,04-02-2022,3,Tuesday,Conahy,tconahy3@discovery.com,4,Chromebook S330,199.99,4,Lenovo,7358249958
+3,04-10-2022,2,Lucille,Lowen,llowen2@cnet.com,2,iPad Pro 11” 2020,799.99,2,Apple,3705158471
+3,03-28-2022,2,Lucille,Lowen,llowen2@cnet.com,5,Apple Watch Series 6,399.99,2,Apple,3705158471
+5,04-02-2022,3,Tuesday,Conahy,tconahy3@discovery.com,4,Chromebook S330,199.99,4,Lenovo,7358249958
+6,04-02-2022,4,Phaedra,Attew,pattew7@ask.com,3,Soundcore Life Q20,54.99,3,Anker,6729865674
+7,03-28-2022,5,Kass,Bishopp,kbishopp8@tripod.com,2,iPad Pro 11” 2020,799.99,2,Apple,3705158471
+7,04-09-2022,5,Kass,Bishopp,kbishopp8@tripod.com,5,Apple Watch Series 6,399.99,2,Apple,3705158471
