@@ -52,8 +52,8 @@ def create_database():
     )
 
     cursor = conn.cursor(dictionary=True)
-    cursor.execute("DROP DATABASE IF EXISTS %s;", (os.getenv("DATABASE"),))
-    cursor.execute("CREATE DATABASE %s;", os.getenv("DATABASE"),)
+    cursor.execute(f"DROP DATABASE IF EXISTS {os.getenv('DATABASE')};")
+    cursor.execute(f"CREATE DATABASE {os.getenv('DATABASE')};")
     conn.close()
 
 
