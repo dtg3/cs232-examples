@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Remove an Item:</h1>
+<form action="/delete/" method="POST">
+    <table>
+        {% for item in groceries %}
+        <tr>
+            <td>{{item["product"]}}</td>
+            <td><button name="remove" type="submit" value={{item["id"]}}>Delete</button></td>
+        </tr>
+        {% endfor %}
+    </table>
+</form>
+{% endblock %}
